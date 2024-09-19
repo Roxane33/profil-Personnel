@@ -1,0 +1,61 @@
+#profile-pic {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Rend l'image ronde */
+  margin: 10px auto; /* Centre l'image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+}
+
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6; /* elle defint l'emplacement vertical entre les lignes de textes*/
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color:#333 ;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section{
+  max-width: 800px;/* limite de la largeur maximale de la section. Cela signifie que la largeur ne s'etendra pas au dela de celle ci meme si l'ecran est plus large*/
+  margin: 20px auto ;/* centre de 20px au dessus et en dessous, centre horizontalement la section sur la page*/
+  padding: 20px ; /* cree un espace interieur autour de la section pour eviter que le texte touche le bord  */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1) ;/* ajoute de l'ombre autour des sections*/
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #efefef;
+  margin: 5px 0;
+  padding: 0;
+  border-radius: 4px;
+}
+
+a {
+  
+  color:#333;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #007BFF;
+}
