@@ -8,6 +8,8 @@
 }
 
 
+
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.6; /* elle defint l'emplacement vertical entre les lignes de textes*/
@@ -17,7 +19,8 @@ body {
 }
 
 header{
-  background-color:#333 ;
+  
+  background-color:#d393e1 ;
   color: #fff;
   padding: 10px 0;
   text-align: center;
@@ -37,6 +40,8 @@ h2 {
   margin-top: 0;
 }
 
+
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -47,6 +52,11 @@ ul li {
   margin: 5px 0;
   padding: 0;
   border-radius: 4px;
+  transition: background-color 0.3 ease;
+}
+
+ul li:hover {
+  background-color: #ddd;
 }
 
 a {
@@ -58,4 +68,33 @@ a {
 
 a:hover{
   color: #007BFF;
+}
+
+#links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#links ul li {
+  margin: 5px 0 ;
+ }
+
+#links ul li a {
+  color: #1a1d4f;
+  text-decoration: none;
+  font-weight: bold;
+} 
+
+#links ul li a:hover {
+  text-decoration: underline;
+}
+
+footer{
+  background-color: #d393e1;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
