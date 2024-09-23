@@ -18,13 +18,41 @@ body {
   padding: 0;
 }
 
-header{
+.header{
   
   background-color:#d393e1 ;
   color: #fff;
-  padding: 10px 0;
-  text-align: center;
+  height: 80px;
+  padding: 10px;
+  
 }
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+ul li a {
+  letter-spacing: 0.1rem;
+  list-style: none;
+  text-decoration: underline;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+.menu li {
+  float: left;
+  padding: 20px;
+  
+}
+.menu li a {
+  text-decoration: none;
+}
+
+
 
 section{
   max-width: 800%;/* limite de la largeur maximale de la section. Cela signifie que la largeur ne s'etendra pas au dela de celle ci meme si l'ecran est plus large*/
@@ -40,14 +68,12 @@ h2 {
   margin-top: 0;
 }
 
-
-
-ul {
+ section ul {
   list-style-type: none;
   padding: 0;
 }
 
-ul li {
+ section ul li  {
   background: #efefef;
   margin: 5px 0;
   padding: 0;
@@ -55,7 +81,7 @@ ul li {
   transition: background-color 0.3 ease;
 }
 
-ul li:hover {
+section ul li:hover {
   background-color: #ddd;
 }
 
